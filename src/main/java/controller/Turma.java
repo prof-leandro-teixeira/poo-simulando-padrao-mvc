@@ -8,7 +8,7 @@ import model.Disciplina;
 import model.Professor;
 
 public class Turma {
-    
+
     private int id;
     private List<Disciplina> listaDisciplinas;
     private List<Professor> listaProfessores;

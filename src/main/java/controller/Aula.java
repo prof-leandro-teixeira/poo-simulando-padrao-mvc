@@ -20,24 +20,31 @@ public class Aula {
     public int getCodigo() {
 	return codigo;
     }
+
     public void setCodigo(int codigo) {
 	this.codigo = codigo;
     }
+
     public Date gethorario() {
 	return horario;
     }
+
     public void sethorario(Date horario) {
 	this.horario = horario;
     }
+
     public List<Turma> getTurmas() {
 	return listaTurmas;
     }
+
     public void setTurmas(List<Turma> turmas) {
 	this.listaTurmas = turmas;
     }
+
     public void adicionarTurma(Turma turma) {
 	listaTurmas.add(turma);
     }
+
     public void removerProfessorTurma(Turma turma) {
 	listaTurmas.remove(turma);
     }

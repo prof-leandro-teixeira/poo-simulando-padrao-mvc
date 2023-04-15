@@ -1,4 +1,596 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_-knNQNvOEe2tZMms_h16qA">
-  <modelElement href="platform:/resource/poo-simulando-padrao-mvc/poo-simulando-padrao-mvc.uml#_9ZbzkNvOEe2tZMms_h16qA"/>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_-knNQNvOEe2tZMms_h16qA">
+  <modelElement href="poo-simulando-padrao-mvc.uml#_9ZbzkNvOEe2tZMms_h16qA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__EN6YNvOEe2tZMms_h16qA" sourceAnchor="278.0,131.0" targetAnchor="0.0,106.0" target="__FDn6dvOEe2tZMms_h16qA" source="__EOhcNvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-6FuAdvOEe2tZMms_h16qA"/>
+    <stereotypes xmi:id="__EN6YdvOEe2tZMms_h16qA" name="Reference">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-6GVENvOEe2tZMms_h16qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="__EN6YtvOEe2tZMms_h16qA" text="">
+      <visualProperties xmi:id="__MqEsNvOEe2tZMms_h16qA" position="-18.0,-18.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="__EN6Y9vOEe2tZMms_h16qA" aggregationKind="NONE" name="">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-6FuAtvOEe2tZMms_h16qA"/>
+      <visualProperties xmi:id="__MoPgNvOEe2tZMms_h16qA" position="13.666666666666686,-46.5"/>
+      <visibility xmi:id="__EN6ZNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EN6ZdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__EN6ZtvOEe2tZMms_h16qA" aggregationKind="NONE" name="listaTurmas" navigable="true">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5tTgdvOEe2tZMms_h16qA"/>
+      <visualProperties xmi:id="__MrS0NvOEe2tZMms_h16qA" position="-94.0,2.5"/>
+      <stereotypes xmi:id="_VSCVgNvREe2tZMms_h16qA" name="LegacyStyledElement">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5tTg9vOEe2tZMms_h16qA"/>
+      </stereotypes>
+      <visibility xmi:id="__EN6Z9vOEe2tZMms_h16qA" label="-"/>
+      <cardinality xmi:id="__EN6aNvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__FCZwNvOEe2tZMms_h16qA" sourceAnchor="286.0,100.0" targetAnchor="0.0,59.0" target="__Fj-MNvOEe2tZMms_h16qA" source="__FDn6dvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-6CqsNvOEe2tZMms_h16qA"/>
+    <stereotypes xmi:id="__FCZwdvOEe2tZMms_h16qA" name="Reference">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-6D40NvOEe2tZMms_h16qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="__FCZwtvOEe2tZMms_h16qA" text="">
+      <visualProperties xmi:id="__MtvENvOEe2tZMms_h16qA" position="-5.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__FCZw9vOEe2tZMms_h16qA" aggregationKind="NONE" name="">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-6CqsdvOEe2tZMms_h16qA"/>
+      <visualProperties xmi:id="__Msg8NvOEe2tZMms_h16qA" position="14.0,2.0"/>
+      <visibility xmi:id="__FCZxNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FCZxdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__FCZxtvOEe2tZMms_h16qA" aggregationKind="NONE" name="listaDisciplinas" navigable="true">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5reUNvOEe2tZMms_h16qA"/>
+      <visualProperties xmi:id="__MuWINvOEe2tZMms_h16qA" position="-120.0,-47.0"/>
+      <visibility xmi:id="__FCZx9vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FCZyNvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__FDA0NvOEe2tZMms_h16qA" sourceAnchor="143.0,213.0" targetAnchor="0.0,58.0" target="__Fo2sNvOEe2tZMms_h16qA" source="__FDn6dvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-6D40dvOEe2tZMms_h16qA"/>
+    <bendpoints xmi:id="_1Cq1kNvREe2tZMms_h16qA" sourceY="89" targetX="-194"/>
+    <stereotypes xmi:id="__FDA0dvOEe2tZMms_h16qA" name="Reference">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-6Ef4NvOEe2tZMms_h16qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="__FDA0tvOEe2tZMms_h16qA" text="">
+      <visualProperties xmi:id="__MyAgNvOEe2tZMms_h16qA" position="41.0,-18.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__FDA09vOEe2tZMms_h16qA" aggregationKind="NONE" name="">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-6D40tvOEe2tZMms_h16qA"/>
+      <visualProperties xmi:id="__MwLUNvOEe2tZMms_h16qA" position="1.0,3.0"/>
+      <visibility xmi:id="__FDA1NvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDA1dvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__FDA1tvOEe2tZMms_h16qA" aggregationKind="NONE" name="listaProfessores" navigable="true">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5reUtvOEe2tZMms_h16qA"/>
+      <visualProperties xmi:id="__MynkNvOEe2tZMms_h16qA" position="-129.0,2.0"/>
+      <visibility xmi:id="__FDA19vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDA2NvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="__FDn4NvOEe2tZMms_h16qA" sourceAnchor="143.0,0.0" targetAnchor="0.0,59.0" target="__FeeoNvOEe2tZMms_h16qA" source="__FDn6dvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-6Ef4dvOEe2tZMms_h16qA"/>
+    <bendpoints xmi:id="_1Cq1kdvREe2tZMms_h16qA" sourceY="-108" targetX="-197"/>
+    <stereotypes xmi:id="__FDn4dvOEe2tZMms_h16qA" name="Reference">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-6FuANvOEe2tZMms_h16qA"/>
+    </stereotypes>
+    <nameVisual xmi:id="__FDn4tvOEe2tZMms_h16qA" text="">
+      <visualProperties xmi:id="__M1q4NvOEe2tZMms_h16qA" position="41.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="__FDn49vOEe2tZMms_h16qA" aggregationKind="NONE" name="">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-6Ef4tvOEe2tZMms_h16qA"/>
+      <visualProperties xmi:id="__M0cwNvOEe2tZMms_h16qA" position="1.0,-67.0"/>
+      <visibility xmi:id="__FDn5NvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDn5dvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="__FDn5tvOEe2tZMms_h16qA" aggregationKind="NONE" name="listaAlunos" navigable="true">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5sFYdvOEe2tZMms_h16qA"/>
+      <visualProperties xmi:id="__M2R8NvOEe2tZMms_h16qA" position="-115.0,2.0"/>
+      <visibility xmi:id="__FDn59vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDn6NvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__FDn6dvOEe2tZMms_h16qA" name="Turma" associationsIn="__EN6YNvOEe2tZMms_h16qA" associationsOut="__FCZwNvOEe2tZMms_h16qA __FDA0NvOEe2tZMms_h16qA __FDn4NvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-32SUdvOEe2tZMms_h16qA"/>
+    <visualProperties xmi:id="__FDn6tvOEe2tZMms_h16qA" position="490.0,209.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__FDn69vOEe2tZMms_h16qA" label="+"/>
+    <attributes xmi:id="__FDn7NvOEe2tZMms_h16qA" name="id">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5q3QNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDn7dvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDn7tvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__FDn79vOEe2tZMms_h16qA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__FDn8NvOEe2tZMms_h16qA" name="listaDisciplinas">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5reUNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDn8dvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDn8tvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="__FDn89vOEe2tZMms_h16qA" name="Disciplina">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3qFENvOEe2tZMms_h16qA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__FDn9NvOEe2tZMms_h16qA" name="listaProfessores">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5reUtvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDn9dvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDn9tvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="__FDn99vOEe2tZMms_h16qA" name="Professor">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3uWgNvOEe2tZMms_h16qA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__FDn-NvOEe2tZMms_h16qA" name="listaAlunos">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5sFYdvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDn-dvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDn-tvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="__FDn-9vOEe2tZMms_h16qA" name="Aluno">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3dQwNvOEe2tZMms_h16qA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__FDn_NvOEe2tZMms_h16qA" name="Turma">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-34ukNvOEe2tZMms_h16qA"/>
+      <keywords xmi:id="__FDn_dvOEe2tZMms_h16qA" keyword="create"/>
+      <visibility xmi:id="__FDn_tvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDn_9vOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__FDoANvOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-34ulNvOEe2tZMms_h16qA"/>
+        <type xmi:id="__FDoAdvOEe2tZMms_h16qA" name="Turma">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-32SUdvOEe2tZMms_h16qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__FDoAtvOEe2tZMms_h16qA" name="id">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-34ukdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FDoA9vOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__FDoBNvOEe2tZMms_h16qA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__FDoBdvOEe2tZMms_h16qA" name="imprimirListaTurma">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-358sNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDoBtvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDoB9vOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__FDoCNvOEe2tZMms_h16qA" name="adicionarAluno">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5UR8NvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDoCdvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDoCtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__FDoC9vOEe2tZMms_h16qA" name="aluno">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5UR8dvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FDoDNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__FDoDdvOEe2tZMms_h16qA" name="Aluno">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3dQwNvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__FDoDtvOEe2tZMms_h16qA" name="removerAluno">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5U5ANvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDoD9vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDoENvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__FDoEdvOEe2tZMms_h16qA" name="aluno">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5U5AdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FDoEtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__FDoE9vOEe2tZMms_h16qA" name="Aluno">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3dQwNvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__FDoFNvOEe2tZMms_h16qA" name="adicionarDisciplina">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5VgENvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDoFdvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDoFtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__FDoF9vOEe2tZMms_h16qA" name="disciplina">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5VgEdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FDoGNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__FDoGdvOEe2tZMms_h16qA" name="Disciplina">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3qFENvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__FDoGtvOEe2tZMms_h16qA" name="removerDisciplina">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5WHINvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDoG9vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDoHNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__FDoHdvOEe2tZMms_h16qA" name="disciplina">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5WHIdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FDoHtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__FDoH9vOEe2tZMms_h16qA" name="Disciplina">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3qFENvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__FDoINvOEe2tZMms_h16qA" name="adicionarProfessor">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5WuMNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDoIdvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDoItvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__FDoI9vOEe2tZMms_h16qA" name="professor">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5WuMdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FDoJNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__FDoJdvOEe2tZMms_h16qA" name="Professor">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3uWgNvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__FDoJtvOEe2tZMms_h16qA" name="removerProfessor">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5XVQNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FDoJ9vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FDoKNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__FDoKdvOEe2tZMms_h16qA" name="professor">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5XVQdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FDoKtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__FDoK9vOEe2tZMms_h16qA" name="Professor">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3uWgNvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__Fj-MNvOEe2tZMms_h16qA" name="Disciplina" associationsIn="__FCZwNvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-3qFENvOEe2tZMms_h16qA"/>
+    <visualProperties xmi:id="__Fj-MdvOEe2tZMms_h16qA" position="949.0,250.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__Fj-MtvOEe2tZMms_h16qA" label="+"/>
+    <attributes xmi:id="__Fj-M9vOEe2tZMms_h16qA" name="id">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5pCENvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__Fj-NNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Fj-NdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__Fj-NtvOEe2tZMms_h16qA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__Fj-N9vOEe2tZMms_h16qA" name="nome">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5ppINvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__Fj-ONvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Fj-OdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__Fj-OtvOEe2tZMms_h16qA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__Fj-O9vOEe2tZMms_h16qA" name="Disciplina">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-3r6QNvOEe2tZMms_h16qA"/>
+      <keywords xmi:id="__Fj-PNvOEe2tZMms_h16qA" keyword="create"/>
+      <visibility xmi:id="__Fj-PdvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Fj-PtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Fj-P9vOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3r6RdvOEe2tZMms_h16qA"/>
+        <type xmi:id="__Fj-QNvOEe2tZMms_h16qA" name="Disciplina">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3qFENvOEe2tZMms_h16qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__Fj-QdvOEe2tZMms_h16qA" name="id">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3r6QdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__Fj-QtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__Fj-Q9vOEe2tZMms_h16qA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__Fj-RNvOEe2tZMms_h16qA" name="nome">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3r6QtvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__Fj-RdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__Fj-RtvOEe2tZMms_h16qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__Fj-R9vOEe2tZMms_h16qA" name="toString">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-3shUNvOEe2tZMms_h16qA"/>
+      <stereotypes xmi:id="__Fj-SNvOEe2tZMms_h16qA" name="LegacyStyledElement">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3tIYNvOEe2tZMms_h16qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="__Fj-SdvOEe2tZMms_h16qA" name="Annotations">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3tIYdvOEe2tZMms_h16qA"/>
+      </stereotypes>
+      <visibility xmi:id="__Fj-StvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Fj-S9vOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Fj-TNvOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3shUdvOEe2tZMms_h16qA"/>
+        <type xmi:id="__Fj-TdvOEe2tZMms_h16qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__FeeoNvOEe2tZMms_h16qA" name="Aluno" associationsIn="__FDn4NvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-3dQwNvOEe2tZMms_h16qA"/>
+    <visualProperties xmi:id="__FeeodvOEe2tZMms_h16qA" position="830.0,42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__FeeotvOEe2tZMms_h16qA" label="+"/>
+    <attributes xmi:id="__Feeo9vOEe2tZMms_h16qA" name="id">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5nM4NvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FeepNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FeepdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__FeeptvOEe2tZMms_h16qA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__Feep9vOEe2tZMms_h16qA" name="nome">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5obANvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FeeqNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FeeqdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__FeeqtvOEe2tZMms_h16qA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__Feeq9vOEe2tZMms_h16qA" name="Aluno">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-3jXYNvOEe2tZMms_h16qA"/>
+      <keywords xmi:id="__FeerNvOEe2tZMms_h16qA" keyword="create"/>
+      <visibility xmi:id="__FeerdvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FeertvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Feer9vOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3nBwNvOEe2tZMms_h16qA"/>
+        <type xmi:id="__FeesNvOEe2tZMms_h16qA" name="Aluno">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3dQwNvOEe2tZMms_h16qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__FeesdvOEe2tZMms_h16qA" name="id">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3jXYdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FeestvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__Fees9vOEe2tZMms_h16qA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__FeetNvOEe2tZMms_h16qA" name="nome">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3jXYtvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FeetdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__FeettvOEe2tZMms_h16qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__Feet9vOEe2tZMms_h16qA" name="toString">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-3no0NvOEe2tZMms_h16qA"/>
+      <stereotypes xmi:id="__FeeuNvOEe2tZMms_h16qA" name="LegacyStyledElement">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3oP4NvOEe2tZMms_h16qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="__FeeudvOEe2tZMms_h16qA" name="Annotations">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3peANvOEe2tZMms_h16qA"/>
+      </stereotypes>
+      <visibility xmi:id="__FeeutvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Feeu9vOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__FeevNvOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3no0dvOEe2tZMms_h16qA"/>
+        <type xmi:id="__FeevdvOEe2tZMms_h16qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__Fo2sNvOEe2tZMms_h16qA" name="Professor" associationsIn="__FDA0NvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-3uWgNvOEe2tZMms_h16qA"/>
+    <visualProperties xmi:id="__Fo2sdvOEe2tZMms_h16qA" position="827.0,453.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__Fo2stvOEe2tZMms_h16qA" label="+"/>
+    <attributes xmi:id="__Fo2s9vOEe2tZMms_h16qA" name="id">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5ppIdvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__Fo2tNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Fo2tdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__Fo2ttvOEe2tZMms_h16qA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__Fo2t9vOEe2tZMms_h16qA" name="nome">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5ppItvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__Fo2uNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Fo2udvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__Fo2utvOEe2tZMms_h16qA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__Fo2u9vOEe2tZMms_h16qA" name="Professor">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-3u9kNvOEe2tZMms_h16qA"/>
+      <keywords xmi:id="__Fo2vNvOEe2tZMms_h16qA" keyword="create"/>
+      <visibility xmi:id="__Fo2vdvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Fo2vtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Fo2v9vOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3vkpNvOEe2tZMms_h16qA"/>
+        <type xmi:id="__Fo2wNvOEe2tZMms_h16qA" name="Professor">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-3uWgNvOEe2tZMms_h16qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__Fo2wdvOEe2tZMms_h16qA" name="id">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3vkoNvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__Fo2wtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__Fo2w9vOEe2tZMms_h16qA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__Fo2xNvOEe2tZMms_h16qA" name="nome">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3vkodvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__Fo2xdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__Fo2xtvOEe2tZMms_h16qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__Fo2x9vOEe2tZMms_h16qA" name="toString">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-3wLsNvOEe2tZMms_h16qA"/>
+      <stereotypes xmi:id="__Fo2yNvOEe2tZMms_h16qA" name="LegacyStyledElement">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3xZ0NvOEe2tZMms_h16qA"/>
+      </stereotypes>
+      <stereotypes xmi:id="__Fo2ydvOEe2tZMms_h16qA" name="Annotations">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3xZ0dvOEe2tZMms_h16qA"/>
+      </stereotypes>
+      <visibility xmi:id="__Fo2ytvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__Fo2y9vOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__Fo2zNvOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3wLsdvOEe2tZMms_h16qA"/>
+        <type xmi:id="__Fo2zdvOEe2tZMms_h16qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__EOhcNvOEe2tZMms_h16qA" name="Aula" associationsOut="__EN6YNvOEe2tZMms_h16qA">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-4ADUNvOEe2tZMms_h16qA"/>
+    <visualProperties xmi:id="__EOhcdvOEe2tZMms_h16qA" position="81.0,184.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__EOhctvOEe2tZMms_h16qA" label="+"/>
+    <attributes xmi:id="__EOhc9vOEe2tZMms_h16qA" name="codigo">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5sscNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__EOhdNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhddvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__EOhdtvOEe2tZMms_h16qA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__EOhd9vOEe2tZMms_h16qA" name="horario">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5sscdvOEe2tZMms_h16qA"/>
+      <stereotypes xmi:id="__EOheNvOEe2tZMms_h16qA" name="LegacyStyledElement">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5tTgNvOEe2tZMms_h16qA"/>
+      </stereotypes>
+      <visibility xmi:id="__EOhedvOEe2tZMms_h16qA" label="-"/>
+      <cardinality xmi:id="__EOhetvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <type xmi:id="__EOhe9vOEe2tZMms_h16qA" name="Date">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5NkQdvOEe2tZMms_h16qA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="__EOhfNvOEe2tZMms_h16qA" name="listaTurmas">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5tTgdvOEe2tZMms_h16qA"/>
+      <stereotypes xmi:id="_VSKRUNvREe2tZMms_h16qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_VSLfcNvREe2tZMms_h16qA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_VSNUoNvREe2tZMms_h16qA" name="LegacyStyledElement"/>
+      <visibility xmi:id="__EOhftvOEe2tZMms_h16qA" label="-"/>
+      <cardinality xmi:id="__EOhf9vOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="__EOhgNvOEe2tZMms_h16qA" name="Turma">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-32SUdvOEe2tZMms_h16qA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="__EOhgdvOEe2tZMms_h16qA" name="gethorario">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-4B4gNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__EOhgtvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhg9vOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__EOhhNvOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5kJkNvOEe2tZMms_h16qA"/>
+        <type xmi:id="__EOhhdvOEe2tZMms_h16qA" name="Date">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-5NkQdvOEe2tZMms_h16qA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__EOhhtvOEe2tZMms_h16qA" name="getTurmas">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-4DGoNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__EOhh9vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhiNvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="__EOhidvOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-4DGodvOEe2tZMms_h16qA"/>
+        <type xmi:id="__EOhitvOEe2tZMms_h16qA" name="Turma">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-32SUdvOEe2tZMms_h16qA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="__EOhi9vOEe2tZMms_h16qA" name="imprimirListaAula">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-4DtsNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__EOhjNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhjdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="__EOhjtvOEe2tZMms_h16qA" name="adicionarTurma">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5aYkNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__EOhj9vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhkNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__EOhkdvOEe2tZMms_h16qA" name="turma">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5a_oNvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__EOhktvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__EOhk9vOEe2tZMms_h16qA" name="Turma">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-32SUdvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__EOhlNvOEe2tZMms_h16qA" name="removerProfessorTurma">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5a_odvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__EOhldvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhltvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__EOhl9vOEe2tZMms_h16qA" name="turma">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5a_otvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__EOhmNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__EOhmdvOEe2tZMms_h16qA" name="Turma">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-32SUdvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__EOhmtvOEe2tZMms_h16qA" name="Aula">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5jigNvOEe2tZMms_h16qA"/>
+      <keywords xmi:id="__EOhm9vOEe2tZMms_h16qA" keyword="create"/>
+      <visibility xmi:id="__EOhnNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhndvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="__EOhntvOEe2tZMms_h16qA">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5jihdvOEe2tZMms_h16qA"/>
+        <type xmi:id="__EOhn9vOEe2tZMms_h16qA" name="Aula">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-4ADUNvOEe2tZMms_h16qA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="__EOhoNvOEe2tZMms_h16qA" name="codigo">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5jigdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__EOhodvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__EOhotvOEe2tZMms_h16qA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="__EOho9vOEe2tZMms_h16qA" name="horario">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5jigtvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__EOhpNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__EOhpdvOEe2tZMms_h16qA" name="Date">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-5NkQdvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__EOhptvOEe2tZMms_h16qA" name="sethorario">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5kJkdvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__EOhp9vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhqNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__EOhqdvOEe2tZMms_h16qA" name="horario">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5kwoNvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__EOhqtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__EOhq9vOEe2tZMms_h16qA" name="Date">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-5NkQdvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="__EOhrNvOEe2tZMms_h16qA" name="setTurmas">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5kwodvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__EOhrdvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__EOhrtvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__EOhr9vOEe2tZMms_h16qA" name="turmas">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-5kwotvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__EOhsNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+        <type xmi:id="__EOhsdvOEe2tZMms_h16qA" name="List">
+          <modelElement href="poo-simulando-padrao-mvc.uml#_-5R1sdvOEe2tZMms_h16qA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__FshENvOEe2tZMms_h16qA" name="AulaView">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-3yA4NvOEe2tZMms_h16qA"/>
+    <visualProperties xmi:id="__FtvMNvOEe2tZMms_h16qA" position="138.0,430.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__FtvMdvOEe2tZMms_h16qA" label="+"/>
+    <operations xmi:id="__FtvMtvOEe2tZMms_h16qA" name="main" staticOperation="true">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-3zPANvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FtvM9vOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FtvNNvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__FtvNdvOEe2tZMms_h16qA" name="args">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-3zPAdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FtvNtvOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="__FtvN9vOEe2tZMms_h16qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__FyAoNvOEe2tZMms_h16qA" name="TumaView">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-31EMNvOEe2tZMms_h16qA"/>
+    <visualProperties xmi:id="__FyAodvOEe2tZMms_h16qA" position="136.0,491.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="__FyAotvOEe2tZMms_h16qA" label="+"/>
+    <operations xmi:id="__FyAo9vOEe2tZMms_h16qA" name="main" staticOperation="true">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-31rQNvOEe2tZMms_h16qA"/>
+      <visibility xmi:id="__FyApNvOEe2tZMms_h16qA" label="+"/>
+      <cardinality xmi:id="__FyApdvOEe2tZMms_h16qA" label="1" max="1" min="1"/>
+      <parameters xmi:id="__FyAptvOEe2tZMms_h16qA" name="args">
+        <modelElement href="poo-simulando-padrao-mvc.uml#_-31rQdvOEe2tZMms_h16qA"/>
+        <cardinality xmi:id="__FyAp9vOEe2tZMms_h16qA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="__FyAqNvOEe2tZMms_h16qA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="__FwLcNvOEe2tZMms_h16qA" name="ParseException">
+    <modelElement href="poo-simulando-padrao-mvc.uml#_-5J54NvOEe2tZMms_h16qA"/>
+    <visualProperties xmi:id="__FwLcdvOEe2tZMms_h16qA" position="355.0,441.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="__FwLctvOEe2tZMms_h16qA" name="Reference">
+      <modelElement href="poo-simulando-padrao-mvc.uml#_-5LvENvOEe2tZMms_h16qA"/>
+    </stereotypes>
+    <visibility xmi:id="__FwLc9vOEe2tZMms_h16qA" label="+"/>
+  </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

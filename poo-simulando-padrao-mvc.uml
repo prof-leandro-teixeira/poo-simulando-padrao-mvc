@@ -1,2 +1,519 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_9ZbzkNvOEe2tZMms_h16qA" name="poo_simulando_padrao_mvc"/>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_9ZbzkNvOEe2tZMms_h16qA" name="poo_simulando_padrao_mvc">
+    <eAnnotations xmi:id="_-q-7ANvOEe2tZMms_h16qA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_-q_iENvOEe2tZMms_h16qA" source="codegen">
+        <details xmi:id="_-q_iEdvOEe2tZMms_h16qA" key="codegenDirectory" value="/poo-simulando-padrao-mvc/src/main/java"/>
+        <details xmi:id="__D1f4NvOEe2tZMms_h16qA" key="AssociatedSourceCode" value="/poo-simulando-padrao-mvc/src/main/java/model/Aluno.java;576408653/1;/poo-simulando-padrao-mvc/src/main/java/model/Disciplina.java;1364514444/1;/poo-simulando-padrao-mvc/src/main/java/model/Professor.java;3576445859/1;/poo-simulando-padrao-mvc/src/main/java/view/AulaView.java;1118556590/1;/poo-simulando-padrao-mvc/src/main/java/view/TumaView.java;4274091691/1;/poo-simulando-padrao-mvc/src/main/java/controller/Turma.java;2955535341/1;/poo-simulando-padrao-mvc/src/main/java/controller/Aula.java;4017952403/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_-2x7UNvOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_-2x7UdvOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_-2x7UtvOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_-2x7U9vOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_-2yiYNvOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_-2yiYdvOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_-2yiYtvOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_-2yiY9vOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_-2zJcNvOEe2tZMms_h16qA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-27sUNvOEe2tZMms_h16qA" name="model">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-3dQwNvOEe2tZMms_h16qA" name="Aluno">
+        <ownedAttribute xmi:id="_-5nM4NvOEe2tZMms_h16qA" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-5obANvOEe2tZMms_h16qA" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-50oQNvOEe2tZMms_h16qA" name="Aluno" specification="_-3jXYNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-50oQdvOEe2tZMms_h16qA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-50oQtvOEe2tZMms_h16qA" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-50oQ9vOEe2tZMms_h16qA" type="_-3dQwNvOEe2tZMms_h16qA" direction="return"/>
+          <language>java</language>
+          <body>this.id = id;&#xD;
+     this.nome = nome;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-545sNvOEe2tZMms_h16qA" name="toString" specification="_-3no0NvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-55gwNvOEe2tZMms_h16qA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return id + &quot; - &quot; + nome;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_-3jXYNvOEe2tZMms_h16qA" name="Aluno" method="_-50oQNvOEe2tZMms_h16qA">
+          <eAnnotations xmi:id="_-3masNvOEe2tZMms_h16qA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_-3masdvOEe2tZMms_h16qA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_-3jXYdvOEe2tZMms_h16qA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-3jXYtvOEe2tZMms_h16qA" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-3nBwNvOEe2tZMms_h16qA" type="_-3dQwNvOEe2tZMms_h16qA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-3no0NvOEe2tZMms_h16qA" name="toString" method="_-545sNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-3no0dvOEe2tZMms_h16qA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-3qFENvOEe2tZMms_h16qA" name="Disciplina">
+        <ownedAttribute xmi:id="_-5pCENvOEe2tZMms_h16qA" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-5ppINvOEe2tZMms_h16qA" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-55gwdvOEe2tZMms_h16qA" name="Disciplina" specification="_-3r6QNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-55gwtvOEe2tZMms_h16qA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-55gw9vOEe2tZMms_h16qA" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-55gxNvOEe2tZMms_h16qA" type="_-3qFENvOEe2tZMms_h16qA" direction="return"/>
+          <language>java</language>
+          <body>this.id = id;&#xD;
+         this.nome = nome;&#xD;
+     </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-56H0NvOEe2tZMms_h16qA" name="toString" specification="_-3shUNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-56H0dvOEe2tZMms_h16qA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Id: &quot; + id + &quot; - Nome: &quot; + nome;&#xD;
+     </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_-3r6QNvOEe2tZMms_h16qA" name="Disciplina" method="_-55gwdvOEe2tZMms_h16qA">
+          <eAnnotations xmi:id="_-3r6Q9vOEe2tZMms_h16qA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_-3r6RNvOEe2tZMms_h16qA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_-3r6QdvOEe2tZMms_h16qA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-3r6QtvOEe2tZMms_h16qA" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-3r6RdvOEe2tZMms_h16qA" type="_-3qFENvOEe2tZMms_h16qA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-3shUNvOEe2tZMms_h16qA" name="toString" method="_-56H0NvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-3shUdvOEe2tZMms_h16qA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-3uWgNvOEe2tZMms_h16qA" name="Professor">
+        <ownedAttribute xmi:id="_-5ppIdvOEe2tZMms_h16qA" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-5ppItvOEe2tZMms_h16qA" name="nome">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-56u4NvOEe2tZMms_h16qA" name="Professor" specification="_-3u9kNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-56u4dvOEe2tZMms_h16qA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-56u4tvOEe2tZMms_h16qA" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-56u49vOEe2tZMms_h16qA" type="_-3uWgNvOEe2tZMms_h16qA" direction="return"/>
+          <language>java</language>
+          <body>this.id = id;&#xD;
+         this.nome = nome;&#xD;
+     </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-56u5NvOEe2tZMms_h16qA" name="toString" specification="_-3wLsNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-56u5dvOEe2tZMms_h16qA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return &quot;Id: &quot; + id + &quot; - Nome: &quot; + nome;&#xD;
+     </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_-3u9kNvOEe2tZMms_h16qA" name="Professor" method="_-56u4NvOEe2tZMms_h16qA">
+          <eAnnotations xmi:id="_-3vkotvOEe2tZMms_h16qA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_-3vko9vOEe2tZMms_h16qA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_-3vkoNvOEe2tZMms_h16qA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-3vkodvOEe2tZMms_h16qA" name="nome">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-3vkpNvOEe2tZMms_h16qA" type="_-3uWgNvOEe2tZMms_h16qA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-3wLsNvOEe2tZMms_h16qA" name="toString" method="_-56u5NvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-3wLsdvOEe2tZMms_h16qA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-3E2QNvOEe2tZMms_h16qA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-3E2QdvOEe2tZMms_h16qA" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_-5J54NvOEe2tZMms_h16qA" name="ParseException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-5M9MNvOEe2tZMms_h16qA" name="SimpleDateFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_-3E2QtvOEe2tZMms_h16qA" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_-5NkQdvOEe2tZMms_h16qA" name="Date"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-5QnkNvOEe2tZMms_h16qA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-5R1sdvOEe2tZMms_h16qA" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-3FdUNvOEe2tZMms_h16qA" name="controller">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-32SUdvOEe2tZMms_h16qA" name="Turma">
+        <ownedAttribute xmi:id="_-5q3QNvOEe2tZMms_h16qA" name="id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-5reUNvOEe2tZMms_h16qA" name="listaDisciplinas" type="_-3qFENvOEe2tZMms_h16qA" isOrdered="true" association="_-6CqsNvOEe2tZMms_h16qA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-5reUdvOEe2tZMms_h16qA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-5reUtvOEe2tZMms_h16qA" name="listaProfessores" type="_-3uWgNvOEe2tZMms_h16qA" isOrdered="true" association="_-6D40dvOEe2tZMms_h16qA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-5sFYNvOEe2tZMms_h16qA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-5sFYdvOEe2tZMms_h16qA" name="listaAlunos" type="_-3dQwNvOEe2tZMms_h16qA" isOrdered="true" association="_-6Ef4dvOEe2tZMms_h16qA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-5sFYtvOEe2tZMms_h16qA" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-579ANvOEe2tZMms_h16qA" name="Turma" specification="_-34ukNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-579AdvOEe2tZMms_h16qA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-579AtvOEe2tZMms_h16qA" type="_-32SUdvOEe2tZMms_h16qA" direction="return"/>
+          <language>java</language>
+          <body>this.listaAlunos = new ArrayList&lt;>();&#xD;
+	this.listaDisciplinas = new ArrayList&lt;>();&#xD;
+	this.listaProfessores = new ArrayList&lt;>();&#xD;
+	this.id = id;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-58kENvOEe2tZMms_h16qA" name="adicionarAluno" specification="_-5UR8NvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-58kEdvOEe2tZMms_h16qA" name="aluno" type="_-3dQwNvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>listaAlunos.add(aluno);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-58kEtvOEe2tZMms_h16qA" name="removerAluno" specification="_-5U5ANvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-58kE9vOEe2tZMms_h16qA" name="aluno" type="_-3dQwNvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>listaAlunos.remove(aluno);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-58kFNvOEe2tZMms_h16qA" name="adicionarDisciplina" specification="_-5VgENvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-58kFdvOEe2tZMms_h16qA" name="disciplina" type="_-3qFENvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>listaDisciplinas.add(disciplina);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-58kFtvOEe2tZMms_h16qA" name="removerDisciplina" specification="_-5WHINvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-58kF9vOEe2tZMms_h16qA" name="disciplina" type="_-3qFENvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>listaDisciplinas.remove(disciplina);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-59yMNvOEe2tZMms_h16qA" name="adicionarProfessor" specification="_-5WuMNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-59yMdvOEe2tZMms_h16qA" name="professor" type="_-3uWgNvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>listaProfessores.add(professor);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-59yMtvOEe2tZMms_h16qA" name="removerProfessor" specification="_-5XVQNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-59yM9vOEe2tZMms_h16qA" name="professor" type="_-3uWgNvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>listaProfessores.add(professor);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-59yNNvOEe2tZMms_h16qA" name="imprimirListaTurma" specification="_-358sNvOEe2tZMms_h16qA">
+          <language>java</language>
+          <body>System.out.println(&quot;Turma: &quot; + Turma.this.id);&#xD;
+&#xD;
+	for (Disciplina Disciplina : listaDisciplinas) {&#xD;
+	    System.out.println(&quot;Disciplina: &quot; + Disciplina.getNome());&#xD;
+	}&#xD;
+	for (Professor Professor : listaProfessores) {&#xD;
+	    System.out.println(&quot;Professor: &quot; + Professor.getNome());&#xD;
+	}&#xD;
+	System.out.println(&quot;Lista de presença:&quot;);&#xD;
+	for (Aluno Aluno : listaAlunos) {&#xD;
+	    System.out.println(Aluno.toString());&#xD;
+	}&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_-34ukNvOEe2tZMms_h16qA" name="Turma" method="_-579ANvOEe2tZMms_h16qA">
+          <eAnnotations xmi:id="_-34uktvOEe2tZMms_h16qA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_-34uk9vOEe2tZMms_h16qA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_-34ukdvOEe2tZMms_h16qA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-34ulNvOEe2tZMms_h16qA" type="_-32SUdvOEe2tZMms_h16qA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-358sNvOEe2tZMms_h16qA" name="imprimirListaTurma" method="_-59yNNvOEe2tZMms_h16qA"/>
+        <ownedOperation xmi:id="_-5UR8NvOEe2tZMms_h16qA" name="adicionarAluno" method="_-58kENvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5UR8dvOEe2tZMms_h16qA" name="aluno" type="_-3dQwNvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5U5ANvOEe2tZMms_h16qA" name="removerAluno" method="_-58kEtvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5U5AdvOEe2tZMms_h16qA" name="aluno" type="_-3dQwNvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5VgENvOEe2tZMms_h16qA" name="adicionarDisciplina" method="_-58kFNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5VgEdvOEe2tZMms_h16qA" name="disciplina" type="_-3qFENvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5WHINvOEe2tZMms_h16qA" name="removerDisciplina" method="_-58kFtvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5WHIdvOEe2tZMms_h16qA" name="disciplina" type="_-3qFENvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5WuMNvOEe2tZMms_h16qA" name="adicionarProfessor" method="_-59yMNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5WuMdvOEe2tZMms_h16qA" name="professor" type="_-3uWgNvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5XVQNvOEe2tZMms_h16qA" name="removerProfessor" method="_-59yMtvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5XVQdvOEe2tZMms_h16qA" name="professor" type="_-3uWgNvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-4ADUNvOEe2tZMms_h16qA" name="Aula">
+        <ownedAttribute xmi:id="_-5sscNvOEe2tZMms_h16qA" name="codigo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_-5sscdvOEe2tZMms_h16qA" name="horario" visibility="private" type="_-5NkQdvOEe2tZMms_h16qA"/>
+        <ownedAttribute xmi:id="_-5tTgdvOEe2tZMms_h16qA" name="listaTurmas" visibility="private" type="_-32SUdvOEe2tZMms_h16qA" isOrdered="true" association="_-6FuAdvOEe2tZMms_h16qA">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-5tTgtvOEe2tZMms_h16qA" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-5-ZQNvOEe2tZMms_h16qA" name="Aula" specification="_-5jigNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5-ZQdvOEe2tZMms_h16qA" name="codigo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-5-ZQtvOEe2tZMms_h16qA" name="horario" type="_-5NkQdvOEe2tZMms_h16qA"/>
+          <ownedParameter xmi:id="_-5-ZQ9vOEe2tZMms_h16qA" type="_-4ADUNvOEe2tZMms_h16qA" direction="return"/>
+          <language>java</language>
+          <body>this.listaTurmas = new ArrayList&lt;Turma>();&#xD;
+	this.codigo = codigo;&#xD;
+	this.horario = horario;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-5-ZRNvOEe2tZMms_h16qA" name="gethorario" specification="_-4B4gNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5-ZRdvOEe2tZMms_h16qA" type="_-5NkQdvOEe2tZMms_h16qA" direction="return"/>
+          <language>java</language>
+          <body>return horario;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-5-ZRtvOEe2tZMms_h16qA" name="sethorario" specification="_-5kJkdvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5_AUNvOEe2tZMms_h16qA" name="horario" type="_-5NkQdvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>this.horario = horario;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-5_AUdvOEe2tZMms_h16qA" name="getTurmas" specification="_-4DGoNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5_AUtvOEe2tZMms_h16qA" type="_-32SUdvOEe2tZMms_h16qA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-5_AU9vOEe2tZMms_h16qA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return listaTurmas;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-5_AVNvOEe2tZMms_h16qA" name="setTurmas" specification="_-5kwodvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5_AVdvOEe2tZMms_h16qA" name="turmas" type="_-5R1sdvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>this.listaTurmas = turmas;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-5_nYNvOEe2tZMms_h16qA" name="adicionarTurma" specification="_-5aYkNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5_nYdvOEe2tZMms_h16qA" name="turma" type="_-32SUdvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>listaTurmas.add(turma);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-5_nYtvOEe2tZMms_h16qA" name="removerProfessorTurma" specification="_-5a_odvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5_nY9vOEe2tZMms_h16qA" name="turma" type="_-32SUdvOEe2tZMms_h16qA"/>
+          <language>java</language>
+          <body>listaTurmas.remove(turma);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-5_nZNvOEe2tZMms_h16qA" name="imprimirListaAula" specification="_-4DtsNvOEe2tZMms_h16qA">
+          <language>java</language>
+          <body>SimpleDateFormat sdf = new SimpleDateFormat(&quot;dd/MM/yyyy HH:mm&quot;);&#xD;
+	System.out.println(&quot;Relação de aulas em :&quot; + sdf.format(horario));&#xD;
+	for (Turma turma : listaTurmas) {&#xD;
+	    System.out.println(&quot;Turma: &quot; + turma.getId());&#xD;
+	    System.out.println(&quot;Professor: &quot; + turma.getListaProfessores());&#xD;
+	    System.out.println(&quot;Lista de chamada: &quot; + turma.getListaAlunos().toString());&#xD;
+	}&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_-4B4gNvOEe2tZMms_h16qA" name="gethorario" method="_-5-ZRNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5kJkNvOEe2tZMms_h16qA" type="_-5NkQdvOEe2tZMms_h16qA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-4DGoNvOEe2tZMms_h16qA" name="getTurmas" method="_-5_AUdvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-4DGodvOEe2tZMms_h16qA" type="_-32SUdvOEe2tZMms_h16qA" isOrdered="true" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-4DGotvOEe2tZMms_h16qA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-4DtsNvOEe2tZMms_h16qA" name="imprimirListaAula" method="_-5_nZNvOEe2tZMms_h16qA"/>
+        <ownedOperation xmi:id="_-5aYkNvOEe2tZMms_h16qA" name="adicionarTurma" method="_-5_nYNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5a_oNvOEe2tZMms_h16qA" name="turma" type="_-32SUdvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5a_odvOEe2tZMms_h16qA" name="removerProfessorTurma" method="_-5_nYtvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5a_otvOEe2tZMms_h16qA" name="turma" type="_-32SUdvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5jigNvOEe2tZMms_h16qA" name="Aula" method="_-5-ZQNvOEe2tZMms_h16qA">
+          <eAnnotations xmi:id="_-5jig9vOEe2tZMms_h16qA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_-5jihNvOEe2tZMms_h16qA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_-5jigdvOEe2tZMms_h16qA" name="codigo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_-5jigtvOEe2tZMms_h16qA" name="horario" type="_-5NkQdvOEe2tZMms_h16qA"/>
+          <ownedParameter xmi:id="_-5jihdvOEe2tZMms_h16qA" type="_-4ADUNvOEe2tZMms_h16qA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5kJkdvOEe2tZMms_h16qA" name="sethorario" method="_-5-ZRtvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5kwoNvOEe2tZMms_h16qA" name="horario" type="_-5NkQdvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_-5kwodvOEe2tZMms_h16qA" name="setTurmas" method="_-5_AVNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-5kwotvOEe2tZMms_h16qA" name="turmas" type="_-5R1sdvOEe2tZMms_h16qA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_-6CqsNvOEe2tZMms_h16qA" name="" memberEnd="_-6CqsdvOEe2tZMms_h16qA _-5reUNvOEe2tZMms_h16qA">
+        <ownedEnd xmi:id="_-6CqsdvOEe2tZMms_h16qA" name="" type="_-32SUdvOEe2tZMms_h16qA" association="_-6CqsNvOEe2tZMms_h16qA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_-6D40dvOEe2tZMms_h16qA" name="" memberEnd="_-6D40tvOEe2tZMms_h16qA _-5reUtvOEe2tZMms_h16qA">
+        <ownedEnd xmi:id="_-6D40tvOEe2tZMms_h16qA" name="" type="_-32SUdvOEe2tZMms_h16qA" association="_-6D40dvOEe2tZMms_h16qA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_-6Ef4dvOEe2tZMms_h16qA" name="" memberEnd="_-6Ef4tvOEe2tZMms_h16qA _-5sFYdvOEe2tZMms_h16qA">
+        <ownedEnd xmi:id="_-6Ef4tvOEe2tZMms_h16qA" name="" type="_-32SUdvOEe2tZMms_h16qA" association="_-6Ef4dvOEe2tZMms_h16qA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_-6FuAdvOEe2tZMms_h16qA" name="" memberEnd="_-6FuAtvOEe2tZMms_h16qA _-5tTgdvOEe2tZMms_h16qA">
+        <ownedEnd xmi:id="_-6FuAtvOEe2tZMms_h16qA" name="" type="_-4ADUNvOEe2tZMms_h16qA" association="_-6FuAdvOEe2tZMms_h16qA"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-3HSgNvOEe2tZMms_h16qA" name="view">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-3yA4NvOEe2tZMms_h16qA" name="AulaView">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-57V8NvOEe2tZMms_h16qA" name="main" specification="_-3zPANvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-57V8dvOEe2tZMms_h16qA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-57V8tvOEe2tZMms_h16qA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>SimpleDateFormat sdf = new SimpleDateFormat(&quot;dd/MM/yyyy HH:mm&quot;);&#xD;
+	Date data = sdf.parse(&quot;10/10/2022 07:10&quot;);&#xD;
+&#xD;
+	Disciplina d1 = new Disciplina(1, &quot;Matemática&quot;);&#xD;
+	Professor p1 = new Professor(1, &quot;Leandro Teixeira&quot;);&#xD;
+	Aluno a901_01 = new Aluno(01, &quot;João da Silva&quot;);	Aluno a901_02 = new Aluno(02, &quot;Kleber Gonçalves&quot;);&#xD;
+	Aluno a901_03 = new Aluno(03, &quot;Marina Eclesiástica&quot;);	Aluno a901_04 = new Aluno(04, &quot;Débora dos Santos&quot;);&#xD;
+	Turma a901 = new Turma(901);&#xD;
+	a901.adicionarAluno(a901_01);	a901.adicionarAluno(a901_02);&#xD;
+	a901.adicionarAluno(a901_03);	a901.adicionarAluno(a901_04);&#xD;
+	a901.adicionarProfessor(p1);	a901.adicionarDisciplina(d1);	&#xD;
+	Aula a = new Aula(1, data);&#xD;
+	&#xD;
+	Disciplina d2 = new Disciplina(2, &quot;Portugês&quot;);&#xD;
+	Professor p2 = new Professor(1, &quot;Ferreira Teixeira&quot;);&#xD;
+	Aluno a702_01 = new Aluno(01, &quot;Liu Lau&quot;);	Aluno a702_02 = new Aluno(02, &quot;John new&quot;);&#xD;
+	Aluno a702_03 = new Aluno(03, &quot;Atributos dos Santos&quot;); 	Aluno a702_04 = new Aluno(04, &quot;Campos em branco&quot;);&#xD;
+	Turma a702 = new Turma(702);&#xD;
+	a702.adicionarAluno(a702_01);	a702.adicionarAluno(a702_02);&#xD;
+	a702.adicionarAluno(a702_03);	a702.adicionarAluno(a702_04);&#xD;
+	a702.adicionarProfessor(p2);	a702.adicionarDisciplina(d2);	&#xD;
+	Aula b = new Aula(2, data);&#xD;
+	&#xD;
+	a.adicionarTurma(a702);&#xD;
+	a.adicionarTurma(a901);&#xD;
+	a.imprimirListaAula();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_-3zPANvOEe2tZMms_h16qA" name="main" isStatic="true" method="_-57V8NvOEe2tZMms_h16qA" raisedException="_-5J54NvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-3zPAdvOEe2tZMms_h16qA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-3zPAtvOEe2tZMms_h16qA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-31EMNvOEe2tZMms_h16qA" name="TumaView">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-57V89vOEe2tZMms_h16qA" name="main" specification="_-31rQNvOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-57V9NvOEe2tZMms_h16qA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-57V9dvOEe2tZMms_h16qA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Disciplina d = new Disciplina(1, &quot;Matemática&quot;);&#xD;
+	Professor p = new Professor(1, &quot;Leandro Teixeira&quot;);&#xD;
+	Aluno a702_01 = new Aluno(01, &quot;João da Silva&quot;);&#xD;
+	Aluno a702_02 = new Aluno(02, &quot;Kleber Gonçalves&quot;);&#xD;
+	Aluno a702_03 = new Aluno(03, &quot;Marina Eclesiástica&quot;);&#xD;
+	Aluno a702_04 = new Aluno(04, &quot;Débora dos Santos&quot;);&#xD;
+	Turma a702 = new Turma(702);&#xD;
+&#xD;
+	a702.adicionarAluno(a702_01);&#xD;
+	a702.adicionarAluno(a702_02);&#xD;
+	a702.adicionarAluno(a702_03);&#xD;
+	a702.adicionarAluno(a702_04);&#xD;
+&#xD;
+	a702.adicionarProfessor(p);&#xD;
+	a702.adicionarDisciplina(d);&#xD;
+	a702.imprimirListaTurma();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_-31rQNvOEe2tZMms_h16qA" name="main" isStatic="true" method="_-57V89vOEe2tZMms_h16qA">
+          <ownedParameter xmi:id="_-31rQdvOEe2tZMms_h16qA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-32SUNvOEe2tZMms_h16qA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_-rBXQNvOEe2tZMms_h16qA">
+      <eAnnotations xmi:id="_-rFBoNvOEe2tZMms_h16qA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_-rMWYNvOEe2tZMms_h16qA" base_Package="_9ZbzkNvOEe2tZMms_h16qA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-3oP4NvOEe2tZMms_h16qA" base_Element="_-3no0NvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Annotations xmi:id="_-3peANvOEe2tZMms_h16qA" base_Element="_-3no0NvOEe2tZMms_h16qA">
+    <annotations xmi:id="_-3peAdvOEe2tZMms_h16qA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-3tIYNvOEe2tZMms_h16qA" base_Element="_-3shUNvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Annotations xmi:id="_-3tIYdvOEe2tZMms_h16qA" base_Element="_-3shUNvOEe2tZMms_h16qA">
+    <annotations xmi:id="_-3tIYtvOEe2tZMms_h16qA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-3xZ0NvOEe2tZMms_h16qA" base_Element="_-3wLsNvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Annotations xmi:id="_-3xZ0dvOEe2tZMms_h16qA" base_Element="_-3wLsNvOEe2tZMms_h16qA">
+    <annotations xmi:id="_-3xZ0tvOEe2tZMms_h16qA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_-5LvENvOEe2tZMms_h16qA" base_Element="_-5J54NvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Reference xmi:id="_-5NkQNvOEe2tZMms_h16qA" base_Element="_-5M9MNvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Reference xmi:id="_-5OyYNvOEe2tZMms_h16qA" base_Element="_-5NkQdvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Reference xmi:id="_-5R1sNvOEe2tZMms_h16qA" base_Element="_-5QnkNvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Reference xmi:id="_-5TD0NvOEe2tZMms_h16qA" base_Element="_-5R1sdvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Generics xmi:id="_-5l-wNvOEe2tZMms_h16qA" genericsValue="Turma" base_Element="_-5kwotvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-5tTgNvOEe2tZMms_h16qA" base_Element="_-5sscdvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-5tTg9vOEe2tZMms_h16qA" base_Element="_-5tTgdvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Reference xmi:id="_-6D40NvOEe2tZMms_h16qA" base_Element="_-6CqsNvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Reference xmi:id="_-6Ef4NvOEe2tZMms_h16qA" base_Element="_-6D40dvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Reference xmi:id="_-6FuANvOEe2tZMms_h16qA" base_Element="_-6Ef4dvOEe2tZMms_h16qA"/>
+  <UMLLabProfile:Reference xmi:id="_-6GVENvOEe2tZMms_h16qA" base_Element="_-6FuAdvOEe2tZMms_h16qA"/>
+</xmi:XMI>
