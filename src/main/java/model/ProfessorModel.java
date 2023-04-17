@@ -1,12 +1,12 @@
 
 package model;
 
-public class Professor {
+public class ProfessorModel {
 
     private int id;
     private String nome;
 
-    public Professor(int id, String nome) {
+    public ProfessorModel(int id, String nome) {
 	this.id = id;
 	this.nome = nome;
     }

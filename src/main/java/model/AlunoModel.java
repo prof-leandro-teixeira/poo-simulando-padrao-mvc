@@ -1,11 +1,11 @@
 package model;
 
-public class Aluno {
+public class AlunoModel {
 
     private int id;
     private String nome;
 
-    public Aluno(int id, String nome) {
+    public AlunoModel(int id, String nome) {
 	this.id = id;
 	this.nome = nome;
     }

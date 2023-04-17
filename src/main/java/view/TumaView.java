@@ -1,20 +1,20 @@
 package view;
 
-import controller.Turma;
-import model.Aluno;
-import model.Disciplina;
-import model.Professor;
+import controller.TurmaController;
+import model.AlunoModel;
+import model.DisciplinaModel;
+import model.ProfessorModel;
 
 public class TumaView {
     public static void main(String[] args) {
 
-	Disciplina d = new Disciplina(1, "Matemática");
-	Professor p = new Professor(1, "Leandro Teixeira");
-	Aluno a702_01 = new Aluno(01, "João da Silva");
-	Aluno a702_02 = new Aluno(02, "Kleber Gonçalves");
-	Aluno a702_03 = new Aluno(03, "Marina Eclesiástica");
-	Aluno a702_04 = new Aluno(04, "Débora dos Santos");
-	Turma a702 = new Turma(702);
+	DisciplinaModel d = new DisciplinaModel(1, "Matemática");
+	ProfessorModel p = new ProfessorModel(1, "Leandro Teixeira");
+	AlunoModel a702_01 = new AlunoModel(01, "João da Silva");
+	AlunoModel a702_02 = new AlunoModel(02, "Kleber Gonçalves");
+	AlunoModel a702_03 = new AlunoModel(03, "Marina Eclesiástica");
+	AlunoModel a702_04 = new AlunoModel(04, "Débora dos Santos");
+	TurmaController a702 = new TurmaController(702);
 
 	a702.adicionarAluno(a702_01);
 	a702.adicionarAluno(a702_02);
