@@ -81,10 +81,10 @@ public class TurmaController {
 	System.out.println("Turma: " + TurmaController.this.id);
 
 	for (DisciplinaModel DisciplinaModel : listaDisciplinas) {
-	    System.out.println("Disciplina: " + DisciplinaModel.getNome());
+	    System.out.println("Disciplina: " + DisciplinaModel.getClass().getName());
 	}
 	for (ProfessorModel ProfessorModel : listaProfessores) {
-	    System.out.println("Professor: " + ProfessorModel.getNome());
+	    System.out.println("Professor: " + ProfessorModel.getClass().getName());
 	}
 	System.out.println("Lista de presença:");
 	for (AlunoModel AlunoModel : listaAlunos) {
